@@ -1,0 +1,8 @@
+// This is not code, but instructions for configuring Vercel project settings.
+
+// 1. In your Vercel dashboard, vai su "Project Settings" per il tuo progetto.
+// 2. Nella sezione "Build & Development Settings", trova il campo **"Root Directory"**.
+// 3. Se il tuo file `package.json` si trova in una sottocartella (ad esempio, `guidance-booking-platform-main`), inserisci il nome di quella sottocartella qui (ad esempio, `guidance-booking-platform-main`).
+//    Se il tuo `package.json` è già nella radice della tua repository Git, lascia questo campo vuoto.
+// 4. Assicurati che il **"Build Command"** sia `vite build`, l'**"Output Directory"** sia `dist` e l'**"Install Command"** sia `bun install`.
+// 5. Clicca **"Save"** per applicare le modifiche.
